@@ -18,7 +18,7 @@
 
 `docker-compose up -d --scale minimizing-api=2` ou `docker-compose up -d`
 
-#### 1 -  Instale ou tenha o node instalado em sua máquina.
+#### 2 -  Instale ou tenha o node instalado em sua máquina.
 
 2 - Em seu terminal, estando dentro do diretório <mark>/minimizing-executables/dist</mark>
 
@@ -26,6 +26,10 @@
 
 `yarn dev` ou `npm run dev`
 
+#### 3 - Dados de acesso ao sistema
+
+##### **email: silviobassi@email.com**
+##### **senha: 123**
 
 ##### Link para o Código Fonte
 
