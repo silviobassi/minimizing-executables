@@ -1,7 +1,7 @@
 #### DOCKER - ARQUIVOS PARA A EXECUÇÃO DA API
 
 
-#### 1 -  Instale ou Tenha o Docker e o Docker Compose instalados em sua máquina.
+#### 1 -  Instale ou tenha o Docker e o Docker Compose instalados em sua máquina.
 
 
 2 - Em seu terminal, estando dentro do diretório raiz <mark>/minimizing-executables</mark>, execute os seguintes comandos:
@@ -18,7 +18,7 @@
 
 `docker-compose up -d --scale minimizing-api=2` ou `docker-compose up -d`
 
-#### 1 -  Instale ou Tenha o node instalado em sua máquina.
+#### 1 -  Instale ou tenha o node instalado em sua máquina.
 
 2 - Em seu terminal, estando dentro do diretório <mark>/minimizing-executables/dist</mark>
 
