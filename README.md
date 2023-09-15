@@ -25,3 +25,8 @@
 2.1 - Para escalar a aplicação (frontend) utilize o comando:
 
 `yarn dev` ou `npm run dev`
+
+
+##### Link para o Código Fonte
+
+[GitHub - silviobassi/minimizing-waste](https://github.com/silviobassi/minimizing-waste)
