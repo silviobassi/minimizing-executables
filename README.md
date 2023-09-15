@@ -6,11 +6,11 @@
 
 2 - Em seu terminal, estando dentro do diretório raiz <mark>/minimizing-executables</mark>, execute os seguintes comandos:
 
-2.1 - Para escalar a aplicação (API) usando Loading Balance
+2.1 - Para escalar a aplicação (API) usando Loading Balancer
 
 `docker-compose up --scale minimizing-api=2`
 
-2.2 - Para escalar a aplicação (api) sem Loading Balance
+2.2 - Para escalar a aplicação (api) sem Loading Balancer
 
 `docker-compose up`
 
