@@ -1,0 +1,1 @@
+import{ai as n,at as o,r as c,cr as e}from"./index.02d7c6f9.js";function k(){const s=n(),a=o(t=>t.workStations.list),r=o(t=>t.workStations.fetching);return{fetchWorkStations:c.exports.useCallback(async t=>s(e(t)).unwrap(),[s]),workStations:a,fetching:r}}export{k as u};

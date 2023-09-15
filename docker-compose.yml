@@ -1,0 +1,43 @@
+version: "3.9"
+
+networks:
+  minimizing-network:
+    driver: bridge
+
+services:
+  minimizing-mysql:
+    image: mysql
+    environment:
+      MYSQL_ALLOW_EMPTY_PASSWORD: "yes"
+      MYSQL_ROOT_PASSWORD: ""
+    ports:
+      - "3306:3306"
+    networks:
+      - minimizing-network
+  
+  minimizing-redis:
+    image: redis:7.2.1-alpine
+    networks:
+      - minimizing-network
+
+  minimizing-api:
+    image: silviobassi/minimizing-api
+    command: ["/wait-for-it.sh", "minimizing-mysql:3306", "-t", "30", "--", "java", "-jar", "minimizing-api.jar"]
+    environment:
+      DB_HOST: minimizing-mysql
+      SPRING_DATA_REDIS_HOST: minimizing-redis
+      SPRING_PROFILES_ACTIVE: development
+    networks:
+      - minimizing-network
+    depends_on:
+      - minimizing-mysql
+
+  minimizing-proxy:
+    build: ./nginx
+    image: minimizing-proxy
+    ports:
+      - "80:80"
+    networks:
+      - minimizing-network
+    depends_on:
+      - minimizing-api

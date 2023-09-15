@@ -1,0 +1,21 @@
+{
+  "name": "minimizing-waste",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "lint": "eslint . --ext .ts,.tsx",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "dependencies": {
+    "@vitejs/plugin-react": "^4.0.4",
+    "react": "^18.2.0"
+  },
+  "devDependencies": {
+    "vite": "^3.2.3"
+  }
+}
