@@ -18,15 +18,11 @@
 
 `docker-compose up -d --scale minimizing-api=2` ou `docker-compose up -d`
 
-#### 2 -  Instale ou tenha o node instalado em sua máquina.
+#### 3 - LINK PARA EXECUTAR A APLICAÇÃO
 
-2 - Em seu terminal, estando dentro do diretório <mark>/minimizing-executables/dist</mark>
+[APP - Minimizing Waste](https://minimizing-waste.netlify.app)
 
-2.1 - Para escalar a aplicação (frontend) utilize o comando:
-
-`yarn dev` ou `npm run dev`
-
-#### 3 - Dados de acesso ao sistema
+#### 4 - Dados de acesso ao sistema
 
 ##### **email: silviobassi@email.com**
 ##### **senha: 123**
