@@ -22,11 +22,11 @@
 
 [APP - Minimizing Waste](https://minimizing-waste.netlify.app)
 
-##### 3.1 - Dados de acesso ao sistema
+##### 3.1 - DADOS DE ACESSO AO SISTEMA
 
 ##### **email: silviobassi@email.com**
 ##### **senha: 123**
 
-##### 4 - Link para o Código Fonte
+##### 4 - LINK PARA PARA O CÓDIGO FONTE
 
 [GitHub - silviobassi/minimizing-waste](https://github.com/silviobassi/minimizing-waste)
