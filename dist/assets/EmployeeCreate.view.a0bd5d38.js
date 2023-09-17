@@ -1,1 +1,0 @@
-import{u as o,j as r}from"./index.02d7c6f9.js";import{E as e}from"./EmployeeForm.86779edb.js";import"./ButtonForm.54d1a658.js";import"./index.d0d82724.js";import"./EyeTwoTone.fa8dd0fc.js";import"./SaveOutlined.f4c4007c.js";import"./StopOutlined.b94033b4.js";function s(){return o("Cria\xE7\xE3o de Colaborador"),r(e,{title:"Cria\xE7\xE3o de Colaborador"})}export{s as default};
