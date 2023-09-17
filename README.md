@@ -1,5 +1,6 @@
 #### DOCKER - ARQUIVOS PARA A EXECUÇÃO DA API
 
+### CLONE ESTE REPOSITÓRIO EM SUA MÁQUINA LOCAL
 
 #### 1 -  Instale ou tenha o Docker e o Docker Compose instalados em sua máquina.
 
