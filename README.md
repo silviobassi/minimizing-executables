@@ -30,4 +30,4 @@
 
 ##### 4 - LINK PARA PARA O CÓDIGO FONTE
 
-[GitHub - silviobassi/minimizing-waste](https://github.com/silviobassi/minimizing-waste)
+[GitHub - silviobassi/minimizing-waste](https://github.com/silviobassi/minimizing)
