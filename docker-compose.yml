@@ -14,14 +14,14 @@ services:
       - "3306:3306"
     networks:
       - minimizing-network
-  
+
   minimizing-redis:
     image: redis:7.2.1-alpine
     networks:
       - minimizing-network
 
-  minimizing-api:
-    image: silviobassi/minimizing-api
+  api-minimizing:
+    image: silviobassi/api-minimizing
     command: ["/wait-for-it.sh", "minimizing-mysql:3306", "-t", "30", "--", "java", "-jar", "minimizing-api.jar"]
     environment:
       DB_HOST: minimizing-mysql
@@ -40,4 +40,4 @@ services:
     networks:
       - minimizing-network
     depends_on:
-      - minimizing-api
+      - api-minimizing
